@@ -1,0 +1,16 @@
+PODS:
+  - ZCLButtonLayout (0.1.0)
+
+DEPENDENCIES:
+  - ZCLButtonLayout (from `../`)
+
+EXTERNAL SOURCES:
+  ZCLButtonLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZCLButtonLayout: 29650295a3ff5030d35438d015f7b54321a48156
+
+PODFILE CHECKSUM: cd1ffc7c1bc39b335f5818c3f63ac9d1681df8ac
+
+COCOAPODS: 1.11.3

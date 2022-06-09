@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+install! 'cocoapods',
+        :warn_for_unused_master_specs_repo => false
+
+target 'ZCLButtonLayout_Example' do
+  pod 'ZCLButtonLayout', :path => '../'
+  
+  target 'ZCLButtonLayout_Tests' do
+    inherit! :search_paths
+  end
+end
