@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZCLButtonLayout'
-  s.version          = '0.1.1'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of ZCLButtonLayout.xxx'
 
 # This description is used to generate tags and improve search results.
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-设置View的位置.
+设置View的位置,设置View的位置设置View的位置设置View的位置设置View的位置设置View的位置设置View的位置设置View的位置设置View的位置.
                        DESC
 
-  s.homepage         = 'https://github.com/zhouchenglong/ZCLButtonLayout'
+  s.homepage         = 'https://github.com/zhouchenglong'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhouchenglong' => '253136335@qq.com' }
@@ -32,11 +32,21 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ZCLButtonLayout/Classes/**/*'
   
+  s.subspec 'Category' do |c|
+      c.source_files = 'ZCLButtonLayout/Classes/Category/**/*'
+      c.dependency = 'SDWebImage'
+  end
+  
+  s.subspec 'Tool' do |t|
+    t.source_files = 'ZCLButtonLayout/Classes/Tool/**/*'
+    t.dependency = 'MBProgressHUD'
+  end
+  
   # s.resource_bundles = {
   #   'ZCLButtonLayout' => ['ZCLButtonLayout/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking'
 end

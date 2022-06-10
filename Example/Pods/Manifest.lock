@@ -1,15 +1,36 @@
 PODS:
-  - ZCLButtonLayout (0.1.1)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - ZCLButtonLayout (0.2.0):
+    - AFNetworking
 
 DEPENDENCIES:
   - ZCLButtonLayout (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   ZCLButtonLayout:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZCLButtonLayout: f6b48c576b3af00fa05f7c03163562756b254a7d
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  ZCLButtonLayout: 2935097c769e1f9e9d1c7c922870bb46e40aef4f
 
 PODFILE CHECKSUM: 725c9c64600c7fadf5bde9d4bce279fcee758079
 

@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		1425284C25B32E960605243EB317A700 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AB98FC99A75884B046B1F517088A5 /* UIView+Layout.m */; };
 		264BE79B2DC4979823DF25B8D93BE378 /* ZCLButtonLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5E53AC536A6F73FBAA062528B53F12 /* ZCLButtonLayout-dummy.m */; };
+		35881DC42853179E00FC0D14 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 35881DBF2853179E00FC0D14 /* MBProgressHUD+Add.m */; };
+		35881DC52853179E00FC0D14 /* MBProgressHUD+Add.h in Headers */ = {isa = PBXBuildFile; fileRef = 35881DC02853179E00FC0D14 /* MBProgressHUD+Add.h */; };
+		35881DC62853179E00FC0D14 /* PlaceHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35881DC22853179E00FC0D14 /* PlaceHolderView.m */; };
+		35881DC72853179E00FC0D14 /* PlaceHolderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 35881DC32853179E00FC0D14 /* PlaceHolderView.h */; };
 		495F62ABEB74473C2A90A610D529142F /* Pods-ZCLButtonLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F1BDFF5E0B8E17DBAEDCB2BD857B84 /* Pods-ZCLButtonLayout_Example-dummy.m */; };
 		744DB916A6F91CBAB911FDEE39A3AC3B /* Pods-ZCLButtonLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFCC2DAD3D7ABAC2071BFC361B7AFABA /* Pods-ZCLButtonLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96C27DA934875E74BBBCA4FD59BE16D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -38,30 +42,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CB6FC372F230E6783195E25B571ED56 /* ZCLButtonLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZCLButtonLayout; path = ZCLButtonLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CB6FC372F230E6783195E25B571ED56 /* ZCLButtonLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZCLButtonLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5271C4E539287ADF836DC142601E6E /* Pods-ZCLButtonLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZCLButtonLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1FBFC18812643A00DA04FA29F96C1C1C /* ZCLButtonLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZCLButtonLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		219962E75C4C1EEEFB5327FD05F6F905 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1FBFC18812643A00DA04FA29F96C1C1C /* ZCLButtonLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZCLButtonLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		219962E75C4C1EEEFB5327FD05F6F905 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2A225954FB7199C51452A0875941C72D /* Pods-ZCLButtonLayout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZCLButtonLayout_Example-Info.plist"; sourceTree = "<group>"; };
 		2ECD5EAA53910E0052754F7F94E33D7A /* ZCLButtonLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZCLButtonLayout.modulemap; sourceTree = "<group>"; };
+		35881DBF2853179E00FC0D14 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		35881DC02853179E00FC0D14 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		35881DC22853179E00FC0D14 /* PlaceHolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceHolderView.m; sourceTree = "<group>"; };
+		35881DC32853179E00FC0D14 /* PlaceHolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceHolderView.h; sourceTree = "<group>"; };
 		363439F672F9BD9C31A6AC3D85715007 /* Pods-ZCLButtonLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZCLButtonLayout_Tests.modulemap"; sourceTree = "<group>"; };
 		39A1D1629BB02EACD20FC7CA8F623B82 /* Pods-ZCLButtonLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZCLButtonLayout_Tests-dummy.m"; sourceTree = "<group>"; };
 		3C5E53AC536A6F73FBAA062528B53F12 /* ZCLButtonLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCLButtonLayout-dummy.m"; sourceTree = "<group>"; };
 		3D3508F0F165E7F8C5EA69CA9E5337CE /* Pods-ZCLButtonLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZCLButtonLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
-		426CFAE6286698F602544022F75E28AA /* Pods-ZCLButtonLayout_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZCLButtonLayout_Example"; path = Pods_ZCLButtonLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		426CFAE6286698F602544022F75E28AA /* Pods_ZCLButtonLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZCLButtonLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		443A1908AD7496021461C9181F2D899E /* Pods-ZCLButtonLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZCLButtonLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		454D05F19E3009A4FA23AC71FF81FC63 /* UIView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Layout.h"; path = "ZCLButtonLayout/Classes/UIView+Layout.h"; sourceTree = "<group>"; };
 		4CC9129C71131B6F04086D0DBB6AF1BC /* ZCLButtonLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCLButtonLayout.debug.xcconfig; sourceTree = "<group>"; };
 		539A8253D2B5B7580246CD1E4BA36213 /* ZCLButtonLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCLButtonLayout.release.xcconfig; sourceTree = "<group>"; };
 		55C9B8FA5853219F56C797359D79F7F8 /* ZCLButtonLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCLButtonLayout-prefix.pch"; sourceTree = "<group>"; };
-		5971128648F4D70D35597F156E99A381 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5971128648F4D70D35597F156E99A381 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6030780C541AECD958C99928E182D55A /* Pods-ZCLButtonLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCLButtonLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E09E310BA5412FF2D70893CCA3BDA42 /* Pods-ZCLButtonLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCLButtonLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		81F1BDFF5E0B8E17DBAEDCB2BD857B84 /* Pods-ZCLButtonLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZCLButtonLayout_Example-dummy.m"; sourceTree = "<group>"; };
-		89C11A79201236C499FDBEDF91E5591F /* Pods-ZCLButtonLayout_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZCLButtonLayout_Tests"; path = Pods_ZCLButtonLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C11A79201236C499FDBEDF91E5591F /* Pods_ZCLButtonLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZCLButtonLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EC0D86276A56B49586A3D0FDD97AAB8 /* Pods-ZCLButtonLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCLButtonLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AFCC2DAD3D7ABAC2071BFC361B7AFABA /* Pods-ZCLButtonLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZCLButtonLayout_Example-umbrella.h"; sourceTree = "<group>"; };
 		B76369E9ADD9459A5E70858D406F9DF8 /* Pods-ZCLButtonLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZCLButtonLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C6D198FD22F108762EB7F500173C63F1 /* Pods-ZCLButtonLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZCLButtonLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -120,6 +128,26 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		35881DBE2853179E00FC0D14 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				35881DBF2853179E00FC0D14 /* MBProgressHUD+Add.m */,
+				35881DC02853179E00FC0D14 /* MBProgressHUD+Add.h */,
+			);
+			name = Category;
+			path = ZCLButtonLayout/Classes/Category;
+			sourceTree = "<group>";
+		};
+		35881DC12853179E00FC0D14 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				35881DC22853179E00FC0D14 /* PlaceHolderView.m */,
+				35881DC32853179E00FC0D14 /* PlaceHolderView.h */,
+			);
+			name = Tool;
+			path = ZCLButtonLayout/Classes/Tool;
+			sourceTree = "<group>";
+		};
 		493D6CFD31E4CBC42E351FEF07EA54EF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,9 +166,9 @@
 		544026CD95EA51C4E68BF9747B4C4179 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				426CFAE6286698F602544022F75E28AA /* Pods-ZCLButtonLayout_Example */,
-				89C11A79201236C499FDBEDF91E5591F /* Pods-ZCLButtonLayout_Tests */,
-				0CB6FC372F230E6783195E25B571ED56 /* ZCLButtonLayout */,
+				426CFAE6286698F602544022F75E28AA /* Pods_ZCLButtonLayout_Example.framework */,
+				89C11A79201236C499FDBEDF91E5591F /* Pods_ZCLButtonLayout_Tests.framework */,
+				0CB6FC372F230E6783195E25B571ED56 /* ZCLButtonLayout.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,6 +186,8 @@
 			children = (
 				454D05F19E3009A4FA23AC71FF81FC63 /* UIView+Layout.h */,
 				E25AB98FC99A75884B046B1F517088A5 /* UIView+Layout.m */,
+				35881DBE2853179E00FC0D14 /* Category */,
+				35881DC12853179E00FC0D14 /* Tool */,
 				2B293EB771FDA5D70AD93E8F47C692EE /* Pod */,
 				493D6CFD31E4CBC42E351FEF07EA54EF /* Support Files */,
 			);
@@ -234,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F22EE7E2F3AE75D9D436B60E31A255CB /* UIView+Layout.h in Headers */,
+				35881DC72853179E00FC0D14 /* PlaceHolderView.h in Headers */,
+				35881DC52853179E00FC0D14 /* MBProgressHUD+Add.h in Headers */,
 				A495699F83185B013965928FF178D697 /* ZCLButtonLayout-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +305,7 @@
 			);
 			name = "Pods-ZCLButtonLayout_Tests";
 			productName = Pods_ZCLButtonLayout_Tests;
-			productReference = 89C11A79201236C499FDBEDF91E5591F /* Pods-ZCLButtonLayout_Tests */;
+			productReference = 89C11A79201236C499FDBEDF91E5591F /* Pods_ZCLButtonLayout_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AF3FBB60EA4407426760B3C6D6027E17 /* ZCLButtonLayout */ = {
@@ -291,7 +323,7 @@
 			);
 			name = ZCLButtonLayout;
 			productName = ZCLButtonLayout;
-			productReference = 0CB6FC372F230E6783195E25B571ED56 /* ZCLButtonLayout */;
+			productReference = 0CB6FC372F230E6783195E25B571ED56 /* ZCLButtonLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FBFDEC207EFCA1F38D1133DEB71F839B /* Pods-ZCLButtonLayout_Example */ = {
@@ -310,7 +342,7 @@
 			);
 			name = "Pods-ZCLButtonLayout_Example";
 			productName = Pods_ZCLButtonLayout_Example;
-			productReference = 426CFAE6286698F602544022F75E28AA /* Pods-ZCLButtonLayout_Example */;
+			productReference = 426CFAE6286698F602544022F75E28AA /* Pods_ZCLButtonLayout_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -380,6 +412,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1425284C25B32E960605243EB317A700 /* UIView+Layout.m in Sources */,
+				35881DC42853179E00FC0D14 /* MBProgressHUD+Add.m in Sources */,
+				35881DC62853179E00FC0D14 /* PlaceHolderView.m in Sources */,
 				264BE79B2DC4979823DF25B8D93BE378 /* ZCLButtonLayout-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,8 +597,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
