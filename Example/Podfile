@@ -5,6 +5,8 @@ platform :ios, '10.0'
 install! 'cocoapods',
         :warn_for_unused_master_specs_repo => false
 
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'ZCLButtonLayout_Example' do
   pod 'ZCLButtonLayout', :path => '../'
   
