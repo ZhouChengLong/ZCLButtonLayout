@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		1425284C25B32E960605243EB317A700 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AB98FC99A75884B046B1F517088A5 /* UIView+Layout.m */; };
 		264BE79B2DC4979823DF25B8D93BE378 /* ZCLButtonLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5E53AC536A6F73FBAA062528B53F12 /* ZCLButtonLayout-dummy.m */; };
-		35881DC42853179E00FC0D14 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 35881DBF2853179E00FC0D14 /* MBProgressHUD+Add.m */; };
-		35881DC52853179E00FC0D14 /* MBProgressHUD+Add.h in Headers */ = {isa = PBXBuildFile; fileRef = 35881DC02853179E00FC0D14 /* MBProgressHUD+Add.h */; };
-		35881DC62853179E00FC0D14 /* PlaceHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35881DC22853179E00FC0D14 /* PlaceHolderView.m */; };
-		35881DC72853179E00FC0D14 /* PlaceHolderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 35881DC32853179E00FC0D14 /* PlaceHolderView.h */; };
 		495F62ABEB74473C2A90A610D529142F /* Pods-ZCLButtonLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F1BDFF5E0B8E17DBAEDCB2BD857B84 /* Pods-ZCLButtonLayout_Example-dummy.m */; };
 		744DB916A6F91CBAB911FDEE39A3AC3B /* Pods-ZCLButtonLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFCC2DAD3D7ABAC2071BFC361B7AFABA /* Pods-ZCLButtonLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96C27DA934875E74BBBCA4FD59BE16D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -48,10 +44,6 @@
 		219962E75C4C1EEEFB5327FD05F6F905 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2A225954FB7199C51452A0875941C72D /* Pods-ZCLButtonLayout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZCLButtonLayout_Example-Info.plist"; sourceTree = "<group>"; };
 		2ECD5EAA53910E0052754F7F94E33D7A /* ZCLButtonLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZCLButtonLayout.modulemap; sourceTree = "<group>"; };
-		35881DBF2853179E00FC0D14 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
-		35881DC02853179E00FC0D14 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
-		35881DC22853179E00FC0D14 /* PlaceHolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceHolderView.m; sourceTree = "<group>"; };
-		35881DC32853179E00FC0D14 /* PlaceHolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceHolderView.h; sourceTree = "<group>"; };
 		363439F672F9BD9C31A6AC3D85715007 /* Pods-ZCLButtonLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZCLButtonLayout_Tests.modulemap"; sourceTree = "<group>"; };
 		39A1D1629BB02EACD20FC7CA8F623B82 /* Pods-ZCLButtonLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZCLButtonLayout_Tests-dummy.m"; sourceTree = "<group>"; };
 		3C5E53AC536A6F73FBAA062528B53F12 /* ZCLButtonLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCLButtonLayout-dummy.m"; sourceTree = "<group>"; };
@@ -128,26 +120,6 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		35881DBE2853179E00FC0D14 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				35881DBF2853179E00FC0D14 /* MBProgressHUD+Add.m */,
-				35881DC02853179E00FC0D14 /* MBProgressHUD+Add.h */,
-			);
-			name = Category;
-			path = ZCLButtonLayout/Classes/Category;
-			sourceTree = "<group>";
-		};
-		35881DC12853179E00FC0D14 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				35881DC22853179E00FC0D14 /* PlaceHolderView.m */,
-				35881DC32853179E00FC0D14 /* PlaceHolderView.h */,
-			);
-			name = Tool;
-			path = ZCLButtonLayout/Classes/Tool;
-			sourceTree = "<group>";
-		};
 		493D6CFD31E4CBC42E351FEF07EA54EF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,8 +158,6 @@
 			children = (
 				454D05F19E3009A4FA23AC71FF81FC63 /* UIView+Layout.h */,
 				E25AB98FC99A75884B046B1F517088A5 /* UIView+Layout.m */,
-				35881DBE2853179E00FC0D14 /* Category */,
-				35881DC12853179E00FC0D14 /* Tool */,
 				2B293EB771FDA5D70AD93E8F47C692EE /* Pod */,
 				493D6CFD31E4CBC42E351FEF07EA54EF /* Support Files */,
 			);
@@ -264,8 +234,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F22EE7E2F3AE75D9D436B60E31A255CB /* UIView+Layout.h in Headers */,
-				35881DC72853179E00FC0D14 /* PlaceHolderView.h in Headers */,
-				35881DC52853179E00FC0D14 /* MBProgressHUD+Add.h in Headers */,
 				A495699F83185B013965928FF178D697 /* ZCLButtonLayout-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,8 +380,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1425284C25B32E960605243EB317A700 /* UIView+Layout.m in Sources */,
-				35881DC42853179E00FC0D14 /* MBProgressHUD+Add.m in Sources */,
-				35881DC62853179E00FC0D14 /* PlaceHolderView.m in Sources */,
 				264BE79B2DC4979823DF25B8D93BE378 /* ZCLButtonLayout-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

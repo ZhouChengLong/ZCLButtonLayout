@@ -32,15 +32,15 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ZCLButtonLayout/Classes/**/*'
   
-  s.subspec 'Category' do |c|
-      c.source_files = 'ZCLButtonLayout/Classes/Category/**/*'
-      c.dependency = 'SDWebImage'
-  end
-  
-  s.subspec 'Tool' do |t|
-    t.source_files = 'ZCLButtonLayout/Classes/Tool/**/*'
-    t.dependency = 'MBProgressHUD'
-  end
+#  s.subspec 'Category' do |c|
+#      c.source_files = 'ZCLButtonLayout/Classes/Category/**/*'
+#      c.dependency = 'SDWebImage'
+#  end
+#  
+#  s.subspec 'Tool' do |t|
+#    t.source_files = 'ZCLButtonLayout/Classes/Tool/**/*'
+#    t.dependency = 'MBProgressHUD'
+#  end
   
   # s.resource_bundles = {
   #   'ZCLButtonLayout' => ['ZCLButtonLayout/Assets/*.png']
