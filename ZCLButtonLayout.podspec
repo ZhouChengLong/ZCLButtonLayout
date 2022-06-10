@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZCLButtonLayout'
-  s.version          = '0.2.0'
-  s.summary          = 'A short description of ZCLButtonLayout.xxx'
+  s.version          = '0.2.1'
+  s.summary          = '这里是摘要这里是摘要这里是摘要这里是摘要这里是摘要这里是摘要这里是摘要这里是摘要这里是摘要这里是摘要这里是摘要这里是摘要这里是摘要'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

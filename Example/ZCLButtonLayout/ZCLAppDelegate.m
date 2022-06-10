@@ -7,6 +7,7 @@
 //
 
 #import "ZCLAppDelegate.h"
+#import <AFNetworking.h>
 
 @implementation ZCLAppDelegate
 
